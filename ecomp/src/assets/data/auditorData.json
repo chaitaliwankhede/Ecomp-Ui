@@ -1,0 +1,82 @@
+{
+    "sEcho": null,
+    "iTotalRecords": 6247,
+    "iTotalDisplayRecords": 6247,
+    "aaData": [
+        {
+            "employeeId": "1000",
+            "name": "Robot,Barce",
+            "signature": "ROBOT_BARCE",
+            "BusinessEmail": "ROBOT_BARCE@dnv.com",
+            "ba": "Z (BAG)",
+            "loc": "NOOSL2",
+            "country": "NOR",
+            "department": "Automation & Systems",
+            "section": "Z-TS-OAC (ZSEIT576)",
+            "employeeclass": "EMP-Permanent Employee",
+            "status": "A-Active",
+            "serviceStatus": "N/A",
+            "date": "0001-01-01"
+        },
+        {
+            "employeeId": "1000",
+            "name": "Robot,Barce",
+            "signature": "ROBOT_BARCE",
+            "BusinessEmail": "ROBOT_BARCE@dnv.com",
+            "ba": "Z (BAG)",
+            "loc": "NOOSL2",
+            "country": "NOR",
+            "department": "Automation & Systems",
+            "section": "Z-TS-OAC (ZSEIT576)",
+            "employeeclass": "EMP-Permanent Employee",
+            "status": "A-Active",
+            "serviceStatus": "N/A",
+            "date": "0001-01-01"
+        },
+        {
+            "employeeId": "1000",
+            "name": "Robot,Barce",
+            "signature": "ROBOT_BARCE",
+            "BusinessEmail": "ROBOT_BARCE@dnv.com",
+            "ba": "Z (BAG)",
+            "loc": "NOOSL2",
+            "country": "NOR",
+            "department": "Automation & Systems",
+            "section": "Z-TS-OAC (ZSEIT576)",
+            "employeeclass": "EMP-Permanent Employee",
+            "status": "A-Active",
+            "serviceStatus": "N/A",
+            "date": "0001-01-01"
+        },
+        {
+            "employeeId": "1000",
+            "name": "Robot,Barce",
+            "signature": "ROBOT_BARCE",
+            "BusinessEmail": "ROBOT_BARCE@dnv.com",
+            "ba": "Z (BAG)",
+            "loc": "NOOSL2",
+            "country": "NOR",
+            "department": "Automation & Systems",
+            "section": "Z-TS-OAC (ZSEIT576)",
+            "employeeclass": "EMP-Permanent Employee",
+            "status": "A-Active",
+            "serviceStatus": "N/A",
+            "date": "0001-01-01"
+        },
+        {
+            "employeeId": "1000",
+            "name": "Robot,Barce",
+            "signature": "ROBOT_BARCE",
+            "BusinessEmail": "ROBOT_BARCE@dnv.com",
+            "ba": "Z (BAG)",
+            "loc": "NOOSL2",
+            "country": "NOR",
+            "department": "Automation & Systems",
+            "section": "Z-TS-OAC (ZSEIT576)",
+            "employeeclass": "EMP-Permanent Employee",
+            "status": "A-Active",
+            "serviceStatus": "N/A",
+            "date": "0001-01-01"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<div style="width:100vw">
+<!-- Search Accordian -->
+<div style="width: 30vw;">
+<div class="row">
+    
+</div>
+</div>
+<!-- Grid ready event -->
+<ag-grid-angular 
+    style="width:70vw; height: 50vw;" 
+    class="ag-theme-alpine"
+    [defaultColDef]="defaultColDef"
+      [columnDefs]="columnDefs"
+      [rowData]="rowData"
+      (gridReady)="onGridReady($event)">
+</ag-grid-angular>
+</div>
