@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AgGridModule } from 'ag-grid-angular';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
@@ -12,10 +14,10 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { AdvancedSearchComponent } from './layout/advanced-search/advanced-search.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule, NG_VALIDATORS, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
 import { MatInputModule } from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
+import { AgGridComponent } from './layout/ag-grid/ag-grid.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import {MatButtonModule} from '@angular/material/button';
     FooterComponent,
     HomeComponent,
     HeaderSidebarComponent,
-    AdvancedSearchComponent
+    AdvancedSearchComponent,
+    AgGridComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,9 @@ import {MatButtonModule} from '@angular/material/button';
     HttpClientModule,
     MatInputModule,
     MatSelectModule,
-    MatButtonModule
+    MatButtonModule,
+    HttpClientModule,
+    AgGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
