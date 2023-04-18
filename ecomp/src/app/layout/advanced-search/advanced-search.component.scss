@@ -9,9 +9,14 @@
 }
 
 .title {
-    font-family: "AvenirNext" !important;
+    font-family: "AvenirNextBold" !important;
 }
 
 .action {
-    padding: 0;
+    border: none;
+    padding-top: 0;
+}
+
+::ng-deep .mat-expansion-panel-body {
+    padding-bottom: 0 !important;
 }

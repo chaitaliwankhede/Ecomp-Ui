@@ -23,9 +23,25 @@
           </mat-option>
         </mat-select>
       </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Section</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let dp of dpts" [value]="dp.value">
+            {{dp.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Country</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let dp of dpts" [value]="dp.value">
+            {{dp.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
       <mat-action-row class="action">
-        <button mat-button color="primary" >Clear</button>
-        <button mat-button color="primary" >Search</button>
+        <button mat-raised-button>Clear</button>
+        <button mat-raised-button color="primary">Search</button>
       </mat-action-row>
     </mat-expansion-panel>
 </mat-accordion>
